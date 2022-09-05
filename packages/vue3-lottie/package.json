@@ -9,7 +9,7 @@
     "prepublishOnly": "npm run build",
     "lint": "eslint \"{packages,playground}/**/*.{ts,tsx,vue,js,jsx,html}\"",
     "prettier": "npx prettier --write .",
-    "prepare" : "npm run build"
+    "postinstall" : "npm run build"
   },
   "dependencies": {
     "lottie-web": "^5.8.1"
