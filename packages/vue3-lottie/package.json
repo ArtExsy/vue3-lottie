@@ -8,7 +8,8 @@
     "build": "vite build && tsc -d --emitDeclarationOnly && vue-typegen gen -s ./src -o ./dist",
     "prepublishOnly": "npm run build",
     "lint": "eslint \"{packages,playground}/**/*.{ts,tsx,vue,js,jsx,html}\"",
-    "prettier": "npx prettier --write ."
+    "prettier": "npx prettier --write .",
+    "prepare" : "npm run build"
   },
   "dependencies": {
     "lottie-web": "^5.8.1"
