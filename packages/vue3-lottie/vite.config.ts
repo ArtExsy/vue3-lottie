@@ -9,7 +9,7 @@ export default defineConfig({
       entry: resolve(__dirname, './src/index.ts'),
       name: 'vue3-lottie',
     },
-    outDir: 'dist',
+    outDir: '../../dist',
     rollupOptions: {
       external: ['vue', 'lottie-web'],
       output: {
