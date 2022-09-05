@@ -249,7 +249,7 @@ export default defineComponent({
     // function to check if the container is being hovered
     const hoverStarted = () => {
       if (lottieAnimation && props.pauseOnHover) {
-        lottieAnimation.pause()
+        lottieAnim§ation.pause()
       }
 
       if (lottieAnimation && props.playOnHover) {
@@ -261,9 +261,6 @@ export default defineComponent({
     const hoverEnded = () => {
       if (lottieAnimation && props.pauseOnHover) {
         lottieAnimation.play()
-      }
-      if (lottieAnimation && props.playOnHover) {
-        lottieAnimation.pause()
       }
     }
 
